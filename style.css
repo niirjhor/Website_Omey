@@ -1,0 +1,76 @@
+body{
+    font-family: 'Dancing Script', cursive;
+}
+.Heading{
+    display: flex;
+    justify-content: space-between;
+}
+.Heading_Navigation{
+    background-color: #888;
+}
+.Above_home{
+    margin-top: 20px;
+}
+nav li{
+    list-style: none;
+}
+nav li:hover{
+    background-color: cadetblue;
+    transition: 0.5s;
+}
+nav li a{
+    text-decoration: none;
+    font-weight: 700px;
+    margin: 0 20px;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.middle{
+    text-align: center;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(red,blue);
+    font-size: 20px;
+    color: white;
+    border:10px black;
+    border-radius: 10px black;
+    margin: 10px;
+    padding: 20px;
+}
+.button:hover{
+    transition: 0.5s;
+}
+.photo-frame{
+    width: 300px;
+    height: 213px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position:relative;
+}
+.photo img{
+    width: 100%;
+    border-radius: 10px;
+}
+.photo-detail{
+    display: none;
+    text-align: center;
+    position: absolute;
+    width: 300px;
+    top:0;
+}
+.photo-frame:hover .photo-detail{
+    display: block;
+    background-color: rgba(128, 128, 128, 0.295);
+}
+.Animation{
+    margin-top: 50px;
+}
+.photo-album{
+    display: flex;
+    padding: 20px;
+    justify-content:space-evenly;
+}
